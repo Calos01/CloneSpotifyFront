@@ -1,0 +1,14 @@
+
+.home-sidebar{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    
+}
+.home-body{
+    background-color: #121212 ;
+    height: 100vh;
+}
