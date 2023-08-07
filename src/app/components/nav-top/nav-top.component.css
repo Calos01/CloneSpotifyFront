@@ -1,0 +1,43 @@
+.navtop-container{
+    background-color: black;
+    height: 90px;
+    width: 100%;
+    color: lightgrey;
+    align-items: center;
+    font-weight: bold;
+}
+.navtop-items{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navtop-items-auth{ 
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center; 
+}
+.navtop-items-auth >div>a{
+    color: lightgrey;
+    text-decoration: none;
+}
+.navtop-items-auth >div>a:hover{
+    color: white;
+}
+.navtop-item-login{
+    width: 100px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center; 
+    padding: 8px 0px;  
+
+}
+.navtop-item-login>a{
+    color: black !important;
+}
+.navtop-item-login:hover{
+    background-color: lightgrey; 
+}
