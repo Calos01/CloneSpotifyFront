@@ -12,3 +12,17 @@
     background-color: #121212 ;
     height: 100vh;
 }
+.home-sidebar-items{
+    width: 100%;
+    font-size: 16px;
+    text-align: start;
+    margin: 8px;
+    padding-left: 20px;
+}
+.home-sidebar-items > a{
+    color: lightgray;
+    text-decoration: none;
+}
+.home-sidebar-items >a:hover{
+    color: white;
+}
