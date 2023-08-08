@@ -1,10 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-card-music',
   templateUrl: './card-music.component.html',
   styleUrls: ['./card-music.component.css']
 })
-export class CardMusicComponent {
 
+export class CardMusicComponent implements OnInit{
+  @Input() title!:string;
+  @Input() content!:string;
+  ngOnInit(): void {
+    
+  }
 }
