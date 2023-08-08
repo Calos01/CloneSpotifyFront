@@ -1,0 +1,9 @@
+.overflow-elipsis {
+    white-space: nowrap;      /* Evitar el salto de línea */
+    overflow: hidden;         /* Ocultar el contenido excedente */
+    text-overflow: ellipsis;  /* Mostrar "..." al final del contenido oculto */
+}
+  
+  
+  
+  

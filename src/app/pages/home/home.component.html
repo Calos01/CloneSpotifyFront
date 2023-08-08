@@ -18,5 +18,8 @@
     </div>
     <div class="home-body col-10">
         <app-nav-top></app-nav-top>
+        <div class="mt-2 d-flex flex-row gap-5 col-12">
+            <app-card-music class="col-2" *ngFor="let card of cardsMusics" [title]="card.title" [content]="card.content"></app-card-music>
+        </div>
     </div>
 </div>
