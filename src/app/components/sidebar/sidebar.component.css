@@ -1,0 +1,24 @@
+.home-sidebar{
+    background-color: black;
+    height: 100vh;
+    margin-right: -12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    
+}
+.home-sidebar-items{
+    width: 100%;
+    font-size: 16px;
+    text-align: start;
+    margin: 8px;
+    padding-left: 20px;
+}
+.home-sidebar-items > a{
+    color: lightgray;
+    text-decoration: none;
+}
+.home-sidebar-items >a:hover{
+    color: white;
+}

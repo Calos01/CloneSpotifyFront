@@ -11,6 +11,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { CardMusicComponent } from './components/card-music/card-music.component';
 import { NavTopComponent } from './components/nav-top/nav-top.component';
 import { ButtonComponent } from './components/button/button.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ButtonComponent } from './components/button/button.component';
     LoginComponent,
     CardMusicComponent,
     NavTopComponent,
-    ButtonComponent
+    ButtonComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
