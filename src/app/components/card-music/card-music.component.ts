@@ -7,6 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 
 export class CardMusicComponent implements OnInit{
+  @Input() img!:string;
   @Input() title!:string;
   @Input() content!:string;
   ngOnInit(): void {

@@ -1,9 +1,23 @@
 .overflow-elipsis {
     white-space: nowrap;      /* Evitar el salto de línea */
     overflow: hidden;         /* Ocultar el contenido excedente */
-    text-overflow: ellipsis;  /* Mostrar "..." al final del contenido oculto */
+    text-overflow: ellipsis;
+    text-align: start;  /* Mostrar "..." al final del contenido oculto */
 }
-  
+.cardimage{
+   border-radius: 10px;
+   padding:15px;
+} 
+.cardmusic{ 
+    background-color: #0c0c0c;
+    border-radius: 10px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
+}
+.cardmusic:hover{
+    background-color: #202020;  
+}
+
   
   
   

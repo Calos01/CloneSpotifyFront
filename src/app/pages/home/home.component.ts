@@ -7,17 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit{
   cardsMusics:any[]=[{
-    
-    title:"hOLAgfffffffffff2",
+    image:"assets/cardmusic/way98.png",
+    title:"hOLAgfffffffffff2dssfdsf",
     content:"ghh"
   },
   {
-    
+    image:"assets/cardmusic/way98.png",
     title:"HOLA3",
     content:"dasd"
   },
   {
-   
+    image:"assets/cardmusic/way98.png",
     title:"HOLA4",
     content:"ddsf"
   }]
