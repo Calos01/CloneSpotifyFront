@@ -3,11 +3,12 @@
 .card-search {
     background-color: aquamarine;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     overflow: hidden;
     position: relative;
     perspective: 1000px;
+    border-radius: 10px;
 }
 
 .card-search .imagen-container {
@@ -20,6 +21,27 @@
     transform: rotateX(-90deg) rotateY(-45deg);
     transition: transform 1s ease-in-out;
 }
+
+.card-search:hover{
+    background-color: rgb(106, 255, 205);
+    z-index:100;
+    -webkit-animation:scale 1s linear;
+    -moz-animation:scale 1s linear;
+    animation:scale 0.3s linear;
+    transform-origin:50% 50%;
+    animation-fill-mode: forwards;
+}
+@keyframes scale{
+    0%{
+      transform:scale(1.0);
+    }
+    100%{
+      transform:scale(1.03);
+      -webkit-box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
+  -moz-box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
+  box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
+    }
+  }
 
 .card-search:hover .imagen-container {
     transform: rotateX(0deg) rotateY(0deg);

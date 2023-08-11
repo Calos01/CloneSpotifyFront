@@ -40,4 +40,5 @@
 }
 .navtop-item-login:hover{
     background-color: lightgrey; 
+    cursor: pointer;
 }
