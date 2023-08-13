@@ -13,10 +13,30 @@
     border-radius: 10px;
     color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
+    
 }
-.cardmusic:hover{
+.cardmusic:hover {
     background-color: #202020;  
 }
+.cardmusic:hover .play-button{
+    bottom:30px;
+}
+  .play-button {
+    position: absolute;
+    bottom: -50px;
+    right: 10px;
+    padding: 8px 16px;
+    background-color: #1db954;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .play-button:hover {
+    background-color: #169e49;
+  }
 
   
   
