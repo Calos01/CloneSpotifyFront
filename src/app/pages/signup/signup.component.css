@@ -1,6 +1,6 @@
 .registration-container {
-    max-width: 400px;
-    margin: 150px auto;
+    max-width: 600px;
+    margin: 100px auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -34,4 +34,9 @@
   
   button:hover {
     background-color: #169e49;
+  }
+  .caja-1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
   }
