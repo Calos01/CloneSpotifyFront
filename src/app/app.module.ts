@@ -12,7 +12,8 @@ import { CardMusicComponent } from './components/card-music/card-music.component
 import { NavTopComponent } from './components/nav-top/nav-top.component';
 import { ButtonComponent } from './components/button/button.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
-
+import { HttpClientModule} from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +29,9 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
